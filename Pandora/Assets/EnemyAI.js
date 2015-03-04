@@ -2,11 +2,12 @@
 
 var Player : Transform;
 var MoveSpeed = 5;
-var MinDist = 0;
+var MinDist = 1;
 var MaxDist = 10;
 
 function Start () {
-	
+
+	Player = GameObject.FindGameObjectWithTag("Player").transform;
 }
 
 function Update () {
