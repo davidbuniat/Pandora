@@ -36,7 +36,7 @@ public class RotateToMouse : MonoBehaviour {
 
 		Ray ray = m_Cam.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hit;
-		if(Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.NameToLayer("Player")))
+		if(Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.NameToLayer("Environment")))
 		{
 			//transform.localRotation.SetFromToRotation(transform.position, hit.point);
 
