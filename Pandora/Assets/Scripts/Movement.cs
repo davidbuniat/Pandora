@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour {
 
 	private Rigidbody r_body;
 	[SerializeField]
-	private Vector3 verticalInput, horizontalInput;
+	private float verticalInput, horizontalInput;
 
 	void Awake()
 	{
@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour {
 	{
 		Vector3 velocity = r_body.velocity;
 		velocity.x = verticalInput * speed;
-		velocity.z = horizontalInput * speed;
+		velocity.z = horizontalInput * speed * -1;
 		r_body.velocity = velocity;
 	}
 }
