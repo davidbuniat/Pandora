@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour {
 
-	public float speed = 5f; // default 5
+	public float speed = 10f; // default 10
 
 	private Rigidbody r_body;
 	[SerializeField]
@@ -25,8 +25,8 @@ public class Movement : MonoBehaviour {
 	void FixedUpdate()
 	{
 		Vector3 velocity = r_body.velocity;
-		velocity.x = verticalInput * speed;
-		velocity.z = horizontalInput * speed * -1;
+		velocity.z = verticalInput * speed;
+		velocity.x = horizontalInput * speed;
 		r_body.velocity = velocity;
 	}
 }
