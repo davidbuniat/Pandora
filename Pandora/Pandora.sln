@@ -7,6 +7,8 @@ Project("{E55C220B-7D0F-2A4F-9E6A-8CAFAABA9CE3}") = "Pandora", "Assembly-CSharp.
 EndProject
 Project("{E55C220B-7D0F-2A4F-9E6A-8CAFAABA9CE3}") = "Pandora", "Assembly-CSharp-Editor.csproj", "{851378BB-3AF2-E5EB-705B-112BFDA0AEC3}"
 EndProject
+Project("{E55C220B-7D0F-2A4F-9E6A-8CAFAABA9CE3}") = "Pandora", "Assembly-UnityScript.unityproj", "{75F0B2EF-793A-B38F-D023-5E67277AF069}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{851378BB-3AF2-E5EB-705B-112BFDA0AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851378BB-3AF2-E5EB-705B-112BFDA0AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851378BB-3AF2-E5EB-705B-112BFDA0AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F0B2EF-793A-B38F-D023-5E67277AF069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F0B2EF-793A-B38F-D023-5E67277AF069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F0B2EF-793A-B38F-D023-5E67277AF069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F0B2EF-793A-B38F-D023-5E67277AF069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																	GlobalSection(MonoDevelopProperties) = preSolution
+																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
