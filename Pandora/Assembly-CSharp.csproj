@@ -48,9 +48,11 @@
   <ItemGroup>
      <Compile Include="Assets\FT_CaveWorm\Script\PlayAnimation.cs" />
      <Compile Include="Assets\FT_CaveWorm\Script\SubstanceGUI.cs" />
+     <Compile Include="Assets\Scripts\BulletScript.cs" />
      <Compile Include="Assets\Scripts\CursorSetter.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\RotateToMouse.cs" />
+     <Compile Include="Assets\Scripts\Shooting.cs" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />

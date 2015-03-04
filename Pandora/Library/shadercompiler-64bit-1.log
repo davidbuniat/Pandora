@@ -277,3 +277,51 @@ Cmd: compileSnippet
   api=0 type=0 insize=643 outsize=252 kw= ok=1
 Cmd: compileSnippet
   api=0 type=1 insize=643 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=93240 outsize=5194 kw=POINT _TERRAIN_OVERRIDE_SMOOTHNESS ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=93240 outsize=6 kw=POINT _TERRAIN_OVERRIDE_SMOOTHNESS ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=5974 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=6716 kw=POINT SHADOWS_OFF _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=POINT SHADOWS_OFF _NORMALMAP ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=18004 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=10417 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=18313 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FACING_LEAF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=10749 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH_BLEND ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=11385 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_FROND ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1482 outsize=1298 kw=SOFTPARTICLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1482 outsize=6 kw=SOFTPARTICLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1482 outsize=496 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1482 outsize=6 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=18250 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_LEAF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=408601 outsize=10523 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=408601 outsize=6 kw=POINT LOD_FADE_PERCENTAGE EFFECT_BUMP EFFECT_HUE_VARIATION GEOM_TYPE_BRANCH ok=1
